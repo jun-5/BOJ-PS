@@ -111,5 +111,17 @@
     <ClCompile Include="1001 A-B.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11718 그대로출력하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="그대로 출력하기 2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10869 사칙연산.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1260 dfs와 bfs.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
