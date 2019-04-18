@@ -123,5 +123,8 @@
     <ClCompile Include="1260 dfs와 bfs.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="17144 미세먼지안녕!.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
