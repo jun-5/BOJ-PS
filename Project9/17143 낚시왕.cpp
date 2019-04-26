@@ -38,7 +38,6 @@ void fishing(int x) {
 	int p = x;
 	for (int q = 1; q <= C; q++) {
 			if (check[q][p] == 1) { 
-				cout << "물고기 잡아써" << p << "," << q;
 			result += fish[board[q][p]].z;
 			fish_remain[board[q][p]] = 0;
 			board[q][p] = 0;
@@ -132,12 +131,8 @@ int main() {
 	cin >> R >> C >> M;
 	set_board();
 	for(int x=1;x<=C;x++){
-		cout <<" 낚시전 "<< endl;
-	board_print();
 	fishing(x);
 
-	cout << " 낚시후 " << endl;
-	board_print();
 	check_init();
 	board_init();
 
@@ -148,9 +143,6 @@ int main() {
 		board[fish[i].r][fish[i].c] = i;
 	}
 
-	cout << " 이동후 " << endl;
-	board_print();
-	cout << endl;
-	}
+		}
 	cout << result;
 }
